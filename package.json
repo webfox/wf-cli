@@ -1,0 +1,32 @@
+{
+  "name": "wf-cli",
+  "version": "0.0.1",
+  "description": "A command line application intended to provision WebFox web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wf-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webfox/wf-cli.git"
+  },
+  "keywords": [
+    "WebFox",
+    "CLI"
+  ],
+  "author": "Otis Wright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webfox/wf-cli/issues"
+  },
+  "homepage": "https://github.com/webfox/wf-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "figlet": "^1.1.2",
+    "inquirer": "^1.1.3"
+  }
+}
